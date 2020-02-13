@@ -1,0 +1,55 @@
+CREATE TABLE Hitting (
+Year INT,
+Team varchar(50),
+G INT,
+AB INT,
+PA INT,
+H INT,
+"1B" INT,	
+"2B" INT,	
+"3B" INT,	
+HR INT,
+R INT,	
+RBI INT,	
+BB INT,	
+IBB INT,	
+SO INT,	
+HBP INT,	
+SF INT,	
+SH INT,	
+GDP INT,
+SB INT,	
+CS INT,	
+AVG FLOAT
+);
+
+SELECT * FROM Hitting;
+
+CREATE TABLE Pitching (
+Year INT,
+Team varchar(50),
+W INT,
+L INT,	
+ERA	FLOAT,
+G INT,	
+GS INT,	
+CG INT,
+ShO INT,
+SV INT,	
+HLD INT,	
+BS INT,	
+TBF INT,
+H INT,	
+R INT,	
+ER INT,	
+HR INT,	
+BB INT,	
+IBB INT,
+HBP INT,	
+WP INT,	
+BK INT,	
+SO INT
+);
+
+SELECT * FROM Pitching;
+
