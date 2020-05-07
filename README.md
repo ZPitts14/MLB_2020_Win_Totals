@@ -11,3 +11,5 @@ Found and imported data via .csv from fangraphs.com. Had to narrow down which st
 Plugging these specific team stats into our training and testing model. Once we fitted the model the overall score ended up being 0.8279314879863826. Which isn't perfect but this shows that these specific team stats can be predictive in how many wins each team gets. We assigned each team with a unique team id which the model showed how many wins for each unique team. This is what we used for our predictions.
 # Visualization
 We then took this data and imported it into Tableau for some great and in depth visualizations to show our research.
+
+zacharypitts14@gmail.com
